@@ -1,4 +1,4 @@
-print("say something and i will lower your character to make it lower")
+print("say something and i will make it the character higher")
 while True:
     text = input("enter your text: ")
     higher_text = text.upper()
