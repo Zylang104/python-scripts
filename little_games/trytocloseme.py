@@ -8,7 +8,7 @@ def move_randomly():
     new_x= random.randint(0,width-window_w)
     new_y= random.randint(0,height-window_h)
     root.geometry(f"{window_w}x{window_h}+{new_x}+{new_y}")
-    root.after(100,move_randomly) #set there how much fast you want it to move
+    root.after(100,move_randomly) # set there how much fast you want it to move
 def close_window(event):
     root.destroy()
 root= tk.Tk()

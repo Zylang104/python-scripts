@@ -1,4 +1,4 @@
-import pyautogui
+import pyautogui # make sure to install it first
 import random
 import keyboard
 pyautogui.FAILSAFE=False
@@ -9,7 +9,7 @@ def stop():
 keyboard.add_hotkey('delete',stop)
 def move():
     global running
-    print("Starting fast, random mouse movement. Press 'Delete' to stop.")
+    print("Press 'Delete' to stop.")
     w,h=pyautogui.size()
     while running:
         pyautogui.moveTo(random.randint(0,w-1),random.randint(0,h-1),duration=0.05)

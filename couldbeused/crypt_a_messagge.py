@@ -1,4 +1,4 @@
-from cryptography.fernet import Fernet
+from cryptography.fernet import Fernet #you need to install it first
 import base64
 def valitationkey(key):
     if isinstance(key, str):

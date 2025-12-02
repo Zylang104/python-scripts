@@ -30,7 +30,7 @@ def guess_number_game():
         print(f"The number was: {number_to_guess}")
 
 while True:
-    print("welcome the guess number game, you need to guess a number between 1 and 1000 " \
+    print("welcome to the guess number game, you need to guess a number between 1 and 1000 " \
     "whit 50 attempts, for starting press 1 and for exit press 0")
     start = input("Enter your choice: ")
     if start == "1":
